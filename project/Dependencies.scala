@@ -11,21 +11,21 @@ object Dependencies {
 
     object lihaoyi {
       val scalatags =
-        "com.lihaoyi" %% "scalatags" % "0.12.0"
+        "com.lihaoyi" %% "scalatags" % "0.13.1"
     }
   }
 
   object dev {
     object zio {
       val zio =
-        "dev.zio" %% "zio" % "2.0.19"
+        "dev.zio" %% "zio" % "2.1.2"
     }
   }
 
   object org {
     object scalacheck {
       val scalacheck =
-        "org.scalacheck" %% "scalacheck" % "1.17.0"
+        "org.scalacheck" %% "scalacheck" % "1.18.0"
     }
 
     object scalameta {
@@ -36,12 +36,12 @@ object Dependencies {
         moduleId("munit-scalacheck")
 
       private def moduleId(artifact: String): ModuleID =
-        "org.scalameta" %% artifact % "1.0.0-M10"
+        "org.scalameta" %% artifact % "1.0.0"
     }
 
     object typelevel {
       val `discipline-munit` =
-        "org.typelevel" %% "discipline-munit" % "1.0.9"
+        "org.typelevel" %% "discipline-munit" % "2.0.0"
     }
   }
 }

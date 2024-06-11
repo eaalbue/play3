@@ -2,7 +2,7 @@ import Dependencies._
 import MyUtil._
 
 ThisBuild / organization := "dev.insideyou"
-ThisBuild / scalaVersion := "3.3.1"
+ThisBuild / scalaVersion := "3.4.2"
 
 lazy val play3 =
   project
