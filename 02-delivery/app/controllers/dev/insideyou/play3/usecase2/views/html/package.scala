@@ -1,11 +1,11 @@
 package dev.insideyou
 package play3
-package usecase1
+package usecase2
 package views
 package html
 
-import java.time.LocalTime
 import java.time.format.DateTimeFormatter
+import java.time.LocalTime
 
 extension (self: LocalTime)
   private def rendered: String =

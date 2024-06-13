@@ -6,6 +6,7 @@
 # An example controller showing a sample home page
 GET     /                           dev.insideyou.play3.usecase1.Controller.index
 GET     /refresh                    dev.insideyou.play3.usecase1.Controller.refresh
+GET     /refresh2                   dev.insideyou.play3.usecase2.Controller.refresh2
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

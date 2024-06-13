@@ -1,6 +1,6 @@
 package dev.insideyou
 package play3
-package usecase1
+package usecase2
 
 import java.time.LocalTime
 

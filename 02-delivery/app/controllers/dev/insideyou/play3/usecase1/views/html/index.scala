@@ -4,6 +4,7 @@ package usecase1
 package views
 package html
 
+import java.time.LocalTime
 import scalatags.Text.all.*
 
 def index(time: LocalTime): doctype =

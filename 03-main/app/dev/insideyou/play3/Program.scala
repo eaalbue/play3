@@ -9,5 +9,6 @@ object Program:
       router.Routes(
         httpErrorHandler,
         usecase1.controller,
+        usecase2.controller,
         assets,
       )
